@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38C447D81F2193760056F256"
-               BuildableName = "Simpledex.app"
-               BlueprintName = "Simpledex"
-               ReferencedContainer = "container:Simpledex.xcodeproj">
+               BlueprintIdentifier = "9FCBA174E91C0048C15B3EC87CC517D1"
+               BuildableName = "Pods_Simpledex.framework"
+               BlueprintName = "Pods-Simpledex"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38C447D81F2193760056F256"
-            BuildableName = "Simpledex.app"
-            BlueprintName = "Simpledex"
-            ReferencedContainer = "container:Simpledex.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38C447D81F2193760056F256"
-            BuildableName = "Simpledex.app"
-            BlueprintName = "Simpledex"
-            ReferencedContainer = "container:Simpledex.xcodeproj">
+            BlueprintIdentifier = "9FCBA174E91C0048C15B3EC87CC517D1"
+            BuildableName = "Pods_Simpledex.framework"
+            BlueprintName = "Pods-Simpledex"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38C447D81F2193760056F256"
-            BuildableName = "Simpledex.app"
-            BlueprintName = "Simpledex"
-            ReferencedContainer = "container:Simpledex.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

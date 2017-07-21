@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		38C447DD1F2193760056F256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C447DC1F2193760056F256 /* AppDelegate.swift */; };
-		38C447DF1F2193760056F256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C447DE1F2193760056F256 /* ViewController.swift */; };
+		38C447DF1F2193760056F256 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C447DE1F2193760056F256 /* MainVC.swift */; };
 		38C447E21F2193760056F256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C447E01F2193760056F256 /* Main.storyboard */; };
 		38C447E41F2193760056F256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C447E31F2193760056F256 /* Assets.xcassets */; };
 		38C447E71F2193760056F256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C447E51F2193760056F256 /* LaunchScreen.storyboard */; };
+		38C447F31F2193D80056F256 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C447F11F2193D80056F256 /* Pokemon.swift */; };
+		38C447F41F2193D80056F256 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C447F21F2193D80056F256 /* Constants.swift */; };
+		38C447F71F21953E0056F256 /* ImagemArredondada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C447F51F21953E0056F256 /* ImagemArredondada.swift */; };
+		38C447F81F21953E0056F256 /* EscondeTeclado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C447F61F21953E0056F256 /* EscondeTeclado.swift */; };
+		82D3EA72365801B649FBE5F9 /* Pods_Simpledex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBBBD0F8DB4320EB6360B5F /* Pods_Simpledex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38C447D91F2193760056F256 /* Simpledex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simpledex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C447DC1F2193760056F256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38C447DE1F2193760056F256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38C447DE1F2193760056F256 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		38C447E11F2193760056F256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38C447E31F2193760056F256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38C447E61F2193760056F256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38C447E81F2193760056F256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C447F11F2193D80056F256 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		38C447F21F2193D80056F256 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		38C447F51F21953E0056F256 /* ImagemArredondada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagemArredondada.swift; sourceTree = "<group>"; };
+		38C447F61F21953E0056F256 /* EscondeTeclado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscondeTeclado.swift; sourceTree = "<group>"; };
+		D200476294378EB72DB8E476 /* Pods-Simpledex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpledex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simpledex/Pods-Simpledex.debug.xcconfig"; sourceTree = "<group>"; };
+		EFBBBD0F8DB4320EB6360B5F /* Pods_Simpledex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simpledex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96207DFE14FBE9A4F5E4B67 /* Pods-Simpledex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpledex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simpledex/Pods-Simpledex.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D3EA72365801B649FBE5F9 /* Pods_Simpledex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038D59DB7A478673D0DB2E9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D200476294378EB72DB8E476 /* Pods-Simpledex.debug.xcconfig */,
+				F96207DFE14FBE9A4F5E4B67 /* Pods-Simpledex.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		38C447D01F2193760056F256 = {
 			isa = PBXGroup;
 			children = (
 				38C447DB1F2193760056F256 /* Simpledex */,
 				38C447DA1F2193760056F256 /* Products */,
+				038D59DB7A478673D0DB2E9C /* Pods */,
+				6F6C896861867F6BE7716D49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,50 @@
 		38C447DB1F2193760056F256 /* Simpledex */ = {
 			isa = PBXGroup;
 			children = (
+				38C447F01F2193BA0056F256 /* Model */,
+				38C447EF1F2193B80056F256 /* View */,
+				38C447EE1F2193B30056F256 /* Controller */,
 				38C447DC1F2193760056F256 /* AppDelegate.swift */,
-				38C447DE1F2193760056F256 /* ViewController.swift */,
 				38C447E01F2193760056F256 /* Main.storyboard */,
 				38C447E31F2193760056F256 /* Assets.xcassets */,
 				38C447E51F2193760056F256 /* LaunchScreen.storyboard */,
 				38C447E81F2193760056F256 /* Info.plist */,
 			);
 			path = Simpledex;
+			sourceTree = "<group>";
+		};
+		38C447EE1F2193B30056F256 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38C447DE1F2193760056F256 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		38C447EF1F2193B80056F256 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38C447F51F21953E0056F256 /* ImagemArredondada.swift */,
+				38C447F61F21953E0056F256 /* EscondeTeclado.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		38C447F01F2193BA0056F256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38C447F11F2193D80056F256 /* Pokemon.swift */,
+				38C447F21F2193D80056F256 /* Constants.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6F6C896861867F6BE7716D49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFBBBD0F8DB4320EB6360B5F /* Pods_Simpledex.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38C447EB1F2193760056F256 /* Build configuration list for PBXNativeTarget "Simpledex" */;
 			buildPhases = (
+				C654F093E9DF156E805F695D /* [CP] Check Pods Manifest.lock */,
 				38C447D51F2193760056F256 /* Sources */,
 				38C447D61F2193760056F256 /* Frameworks */,
 				38C447D71F2193760056F256 /* Resources */,
+				18AF8B78BFC8FAA03EDE7665 /* [CP] Embed Pods Frameworks */,
+				2731099A21EDA691C1DA93E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +195,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18AF8B78BFC8FAA03EDE7665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simpledex/Pods-Simpledex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2731099A21EDA691C1DA93E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simpledex/Pods-Simpledex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C654F093E9DF156E805F695D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38C447D51F2193760056F256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C447DF1F2193760056F256 /* ViewController.swift in Sources */,
+				38C447F81F21953E0056F256 /* EscondeTeclado.swift in Sources */,
+				38C447DF1F2193760056F256 /* MainVC.swift in Sources */,
+				38C447F71F21953E0056F256 /* ImagemArredondada.swift in Sources */,
 				38C447DD1F2193760056F256 /* AppDelegate.swift in Sources */,
+				38C447F31F2193D80056F256 /* Pokemon.swift in Sources */,
+				38C447F41F2193D80056F256 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +374,12 @@
 		};
 		38C447EC1F2193760056F256 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D200476294378EB72DB8E476 /* Pods-Simpledex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 97ZVCXEP4L;
 				INFOPLIST_FILE = Simpledex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipeferreirasilva.Simpledex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +389,12 @@
 		};
 		38C447ED1F2193760056F256 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96207DFE14FBE9A4F5E4B67 /* Pods-Simpledex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 97ZVCXEP4L;
 				INFOPLIST_FILE = Simpledex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipeferreirasilva.Simpledex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +421,7 @@
 				38C447ED1F2193760056F256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
