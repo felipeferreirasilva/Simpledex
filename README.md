@@ -4,3 +4,7 @@
 Pokedex com informações basicas sobre cada Pokemon
 
 Simpledex (SWIFT 4)
+
+Author: Felipe Silva
+
+Email: felipeferreirasilva@gmail.com
